@@ -185,80 +185,103 @@ a{
 }
 
    
-/* --- --- CAROUSEL --- --- */
- .carousel__contenedor {
-	position: relative;
- }
-
-.carousel__anterior,
-.carousel__siguiente {
-	position: absolute;
-	display: block;
-	width: 30px;
-	height: 30px;
-	border: none;
-	top: calc(50% - 35px);
-	cursor: pointer;
-	line-height: 30px;
-	text-align: center;
-	background: none;
-	color: #fff;
-	opacity: 20%;
+.slider {
+  width: 75vw;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
 }
 
-.carousel__anterior:hover,
-.carousel__siguiente:hover {
-	opacity: 100%;
+
+/* ------------------------- */
+/* Botones Flotantes */
+/* ------------------------- */
+
+.socicon {
+  width: 2rem;
+  height: 2rem;
+  background-color: none;
 }
 
-.carousel__anterior {
-	left: -30px;
+.scroll-up {
+  position: fixed;
+  right: 1%;
+  bottom: 3%;
+  cursor: pointer;
 }
 
-.carousel__siguiente {
-	right: -30px;
+.up-arrow {
+  width: 3rem;
+  height: 3rem;
 }
 
-.carousel__lista {
-	overflow: hidden;
+.home{
+  position: fixed;
+  width: 3rem;
+  height: 3rem;
+  line-height: 45px;
+  bottom: 33%;
+  right: 1%;
+  background: #212529;
+  color: white;
+  border-radius: 40px; 
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+  z-index: 100;
+  }
+
+  .home:hover{
+    text-decoration: none;
+    color: #212529;
+    background: #fff;
+  }
+
+.insta{
+  position: fixed;
+  width: 3rem;
+  height: 3rem;
+  line-height: 50px;
+  bottom: 23%;
+  right: 1%;
+  background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+  color: white;
+  border-radius: 40px; 
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+  z-index: 100;
+  }
+
+.insta:hover{
+  text-decoration: none;
+  color: #212529;
+  background: #fff;
 }
 
-.carousel__elemento {
-	text-align: center;
+.btn-wsp{
+  position: fixed;
+  width: 3rem;
+  height: 3rem;
+  line-height: 50px;
+  bottom: 13%;
+  right: 1%;
+  background: #0df053;
+  color: #fff;
+  border-radius: 40px; 
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+  z-index: 100;
+  }
+
+.btn-wsp:hover{
+  text-decoration: none;
+  color: #0df053;
+  background: #fff;
 }
 
-.carousel__indicadores .glider-dot {
-	display: block;
-	width: 30px;
-	height: 4px;
-	background: #fff;
-	opacity: .2;
-	border-radius: 0;
-}
-
-.carousel__indicadores .glider-dot:hover {
-	opacity: .5;
-}
-
-.carousel__indicadores .glider-dot.active {
-	opacity: 1;
-}
-
-@media screen and (max-width: 800px) {
-	body {
-		padding: 40px 0;
-	}
-
-	.contenido-principal {
-		flex-direction: column;
-	}
-
-	.contenido-principal > * {
-		width: 100%;
-	}
-}
-
-      /*fotter*/
+  /*fotter*/
   .copyright{
     padding: 15px 10px;
     text-align: left;
