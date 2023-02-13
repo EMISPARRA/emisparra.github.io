@@ -83,11 +83,4 @@ let shopItemsData = [
     desc: "3500 Puffs",
     img: "images/45.jpeg"
   },
-
-  { id: "vapo12",
-    name: "Supreme Prime Straw. Banana",
-    price: 9000,
-    desc: "3500 Puffs",
-    img: "images/45.jpeg"
-  },
  ];
