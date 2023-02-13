@@ -69,4 +69,18 @@ let shopItemsData = [
     desc: "7000 Puffs Recargable",
     img: "images/63.jpeg"
   },
+
+  { id: "vapo11",
+    name: "Supreme Prime Blue Ice",
+    price: 9000,
+    desc: "3500 Puffs",
+    img: "images/33.jpeg"
+  },
+
+  { id: "vapo12",
+    name: "Supreme Prime Straw. Banana",
+    price: 9000,
+    desc: "3500 Puffs",
+    img: "images/45.jpeg"
+  },
  ];
